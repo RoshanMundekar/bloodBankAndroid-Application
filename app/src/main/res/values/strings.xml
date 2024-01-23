@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ALTRUISTIC</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_home1">Home</string>
+
+
+    <string name="achiev">Ngo Nearest Hospitals</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="register">Create an account</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="nav_header_title">ALTRUISTIC</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="displayName">Full Name</string>
+    <string name="mobile">Mobile No</string>
+    <string name="userAddress">Address</string>
+    <string name="nearH">Find Nearest Hospitals</string>
+    <string name="fndBlood">Slot Book Donars</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="division_list">
+        <item>Andhra Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Nagaland</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Ladakh</item>
+        <item>Uttarakhand</item>
+
+    </string-array>
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="Blood_Group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </array>
+    <string name="title_activity_ngoactive">ngoactive</string>
+    <string name="eligibility_">Eligibility Requirements(UID NO)</string>
+    <string name="female_">If you are female, you must:\n Be healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 5 inch\nWeigh at least 150 lbs.</string>
+    <string name="male_">If you are male, you must:\nBe healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 1 inch \nWeigh at least 130 lbs.\n</string>
+    <string name="info_">Giving blood saves lives. The blood you give is a lifeline in an emergency and for people who need long-term treatments. Many people would not be alive today if donors had not generously given their blood. \n\nWhy we need you to give blood?\n\n We need over 6000 blood donations every day to treat patients in need for people to give blood.\n\nEach year we need approximately 200000 new donors, as some donors can no longer give blood.Most people between ages of 17-65 are able to give blood. Around half our current donors are over 45.That is why we need more young people to start giving blood.</string>
+
+    <string-array name="rewards_system">
+        <item>select rewards $</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/robotobold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/robotolight</string>
+
+    <string name="about_clg">S.M Shetty School University opened a Regional Centre for imparting quality technical education to powai with the name of Swami Bunts Sangha powai University Regional Centre in year 2006 with four branches of engineering. In 2007 mumbai university started two new courses in LAW as BALLB 5 year integrated course and 3 Years LLB course, and Master of computer applications (MCA). The vison of Regional Centre has been made keeping in mind Vision 2020 of mumbai University.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

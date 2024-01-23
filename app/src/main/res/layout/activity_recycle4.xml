@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/tr1"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="385dp"
+            android:layout_height="255dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/HOSPITALNAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOSPITALNAME:" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bloodroup: " />
+
+                <TextView
+                    android:id="@+id/bloodroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b+" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="status: " />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="verify or not" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email id: " />
+
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="227dp"
+                    android:layout_height="match_parent"
+                    android:text="5:55" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating Star: " />
+
+                <TextView
+                    android:id="@+id/ratevalue"
+                    android:layout_width="227dp"
+                    android:layout_height="match_parent"
+                    android:text="2.5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/rewards"
+                    android:layout_width="76dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:entries="@array/rewards_system" />
+
+                <Button
+                    android:id="@+id/reward"
+                    android:layout_width="150dp"
+                    android:layout_height="55dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/signin_btn"
+                    android:text="REWARDS"
+                    android:textAllCaps="false"
+                    android:textColor="@color/teal_200" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/download"
+                    android:layout_width="210dp"
+                    android:layout_height="55dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/signin_btn"
+                    android:text="Download"
+                    android:textAllCaps="false"
+                    android:textColor="@color/teal_200" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

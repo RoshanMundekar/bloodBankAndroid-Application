@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.baecon.blood_blank.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.baecon.blood_blank.ui.gallery.GalleryFragment"
+        android:label="ALTRUISTIC"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.baecon.blood_blank.ui.info.info"
+        android:label="Profile"
+        tools:layout="@layout/fragment_info" />
+
+
+    <fragment
+        android:id="@+id/blood_requirement"
+        android:name="com.baecon.blood_blank.ui.bloodrequirement.blood_reqirements"
+        android:label="Blood Requirement"
+        tools:layout="@layout/fragment_blood_reqirements" />
+
+    <fragment
+        android:id="@+id/nearby_hospital"
+        android:name="com.baecon.blood_blank.ui.nearesthosptals.nearestlocation"
+        android:label="Nearest Hospitals"
+        tools:layout="@layout/fragment_nearestlocation" />
+
+    <fragment
+        android:id="@+id/Showrewards"
+        android:name="com.baecon.blood_blank.ui.showrewards.showrewards"
+        android:label="Show Rewards"
+        tools:layout="@layout/fragment_showrewards" />
+
+    <fragment
+        android:id="@+id/profile1"
+        android:name="com.baecon.blood_blank.ui.profile.profile"
+        android:label="profile1"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/feedback"
+        android:name="com.baecon.blood_blank.ui.getfeedback.nav_ngo"
+        android:label="Feedback to user"
+        tools:layout="@layout/fragment_nav_ngo" />
+
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.baecon.blood_blank.ui.logout.logout"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

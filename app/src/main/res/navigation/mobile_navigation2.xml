@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.baecon.blood_blank.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.baecon.blood_blank.ui.gallery.GalleryFragment"
+        android:label="NGO_profile"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.baecon.blood_blank.ui.slideshow.SlideshowFragment"
+        android:label="verified donars"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/blood_storage"
+        android:name="com.baecon.blood_blank.ui.blooddoner.blooddoner"
+
+        tools:layout="@layout/fragment_logout" />
+
+
+
+    <fragment
+        android:id="@+id/nearby_hospital"
+        android:name="com.baecon.blood_blank.ui.nearesthosptals.nearestlocation"
+        android:label="@string/achiev"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/nearby_donor"
+        android:name="com.baecon.blood_blank.ui.nearestblood_donors.nearestblood_donor"
+        android:label="Near By Donors"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/rewards"
+        android:name="com.baecon.blood_blank.ui.rewards.rewards"
+        android:label="Reward System"
+        tools:layout="@layout/fragment_rewards" />
+
+
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.baecon.blood_blank.ui.logout.logout"
+        android:label="@string/achiev"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

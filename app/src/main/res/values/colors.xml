@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#F44336</color>
+    <color name="purple_500">#3F51B5</color>
+    <color name="purple_700">#6576D5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#6576D5</color>
+    <color name="primary">#e74c3c</color>
+    <color name="primary_dark">#c13f31</color>
+    <color name="transparent_black_ten_percent">#1A000000</color>
+
+
+    <color name="lavender">#8692f7</color>
+    <color name="grey">#828080</color>
+    <color name="blood_bank_ic_launcher_background">#26A69A</color>
+
+    <color name="textColor">#3f3b3b</color>
+</resources>

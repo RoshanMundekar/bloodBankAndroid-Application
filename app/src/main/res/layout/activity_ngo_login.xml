@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebkg"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="NGO "
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/textView"
+            android:layout_marginTop="30sp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/loginbackground" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="70dp"
+            android:layout_below="@id/textView"
+            android:text="username"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="55dp" />
+
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/user"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/user"
+            android:text="Password"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="55dp" />
+
+        <ImageView
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/locked" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView3"
+            android:layout_toRightOf="@+id/pass"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPersonName" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/singupbtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/sginup" />
+
+    </RelativeLayout>
+</ScrollView>

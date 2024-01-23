@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_clean_hands_24"
+            android:title="Altruistic" />
+
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_profile_overview"
+            android:title="Verification Users" />
+
+        <item
+            android:id="@+id/blood_storage"
+            android:icon="@drawable/ic_find_donor"
+            android:title="@string/fndBlood" />
+        <item
+            android:id="@+id/nearby_hospital"
+            android:icon="@drawable/ic_find_hospital"
+            android:title="Near Hospital Location" />
+
+        <item
+            android:id="@+id/nearby_donor"
+            android:icon="@drawable/ic_find_hospital"
+            android:title="Near Donors Location " />
+
+
+        <item
+            android:id="@+id/rewards"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Rewards To Donors" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+
+
+
+</menu>

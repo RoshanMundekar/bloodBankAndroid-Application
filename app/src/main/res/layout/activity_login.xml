@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/profilebkg"
+    tools:context=".login">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:src="@drawable/logo1" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="306dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/sign"
+            android:hint="  Emailid"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black" />
+
+        <EditText
+
+            android:id="@+id/input_password"
+            android:layout_width="315dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/sign"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:textAllCaps="false"
+            android:id="@+id/button_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:background="@drawable/signin_btn"
+            android:textColor="@color/primary"
+            android:text="@string/action_sign_in_short" />
+
+        <TextView
+            android:textAllCaps="false"
+            android:id="@+id/button_register"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:background="@drawable/transparent_black_ten_percent"
+            android:text="@string/register" />
+
+
+        <TextView
+            android:textAllCaps="false"
+            android:id="@+id/ngo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:background="@drawable/signin_btn"
+            android:textColor="@color/primary"
+            android:text="NGO Login" />
+
+        <TextView
+            android:id="@+id/ss"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/transparent_black_ten_percent"
+            android:padding="5dp"
+            android:text="ALTRUISTIC APPLICATION"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
